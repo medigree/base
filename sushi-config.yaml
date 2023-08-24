@@ -22,6 +22,8 @@ pages:
     title: Changes
   downloads.md: 
     title: Downloads
+  license.md: 
+    title: License
 
 menu:
   Home: index.html 

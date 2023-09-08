@@ -1,4 +1,4 @@
-id: fhir.who.smart-base
+id: who.fhir.smart-base
 canonical: http://worldhealthorganization.github.io/smart
 name: SMART
 title: SMART Empty IG

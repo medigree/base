@@ -1,11 +1,11 @@
 id: who.fhir.smart-base
-canonical: http://worldhealthorganization.github.io/smart
-name: SMART
-title: SMART Empty IG
+canonical: http://worldhealthorganization.github.io/smart-base
+name: SMARTBase
+title: SMART Base
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
 version: 0.1.0
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
@@ -35,6 +35,11 @@ menu:
 meta:
   profile:
     - SMARTImplementationGuide
+
+dependencies:
+  hl7.fhir.uv.crmi: 1.0.0-ballot
+  who.fhir.smart-base: current
+
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

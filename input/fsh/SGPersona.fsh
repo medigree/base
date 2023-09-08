@@ -1,0 +1,3 @@
+Profile: SGPersona
+Parent: ActorDefinition
+

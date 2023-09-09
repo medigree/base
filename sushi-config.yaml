@@ -37,7 +37,6 @@ meta:
     - SMARTImplementationGuide
 
 dependencies:
-  who.fhir.smart-base: current
   hl7.fhir.uv.crmi: 1.0.0-ballot
 
 

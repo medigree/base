@@ -30,3 +30,4 @@ jobs:
     needs: check
     if: needs.check.outputs.file_exists == 'true'
     uses: DigitalSQR/smart-releases/.github/workflows/release.yaml@main
+

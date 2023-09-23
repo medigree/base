@@ -9,8 +9,10 @@ on:
       - release-candidate
 
 jobs:
-  trigger:
+  check:
     runs-on: ubuntu-latest
+    outputs:
+      file_exists: ${{ steps.checkfile.outputs.exists }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,6 +26,8 @@ jobs:
             echo "::set-output name=exists::false"
           fi
 
-      - name: Use Reusable Workflow
-        if: steps.checkfile.outputs.exists == 'true'
-        uses: DigitalSQR/smart-releases/.github/workflows/release.yaml@main
+  trigger:
+    needs: check
+    if: needs.check.outputs.file_exists == 'true'
+    uses: DigitalSQR/smart-releases/.github/workflows/release.yaml@main
+    

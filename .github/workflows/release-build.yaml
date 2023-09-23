@@ -26,6 +26,7 @@ jobs:
             echo "::set-output name=exists::false"
           fi
 
+
   trigger:
     needs: check
     if: needs.check.outputs.file_exists == 'true'

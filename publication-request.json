@@ -6,7 +6,7 @@
     "version" : "0.1.0",
     "desc" : "First stable release",
     "mode" : "milestone",    
-    "path" : "http://smart.who.int/base/0.1.0",
+    "path" : "http://smart.who.int/ig/base/0.1.0",
     "ci-build": "https://openmrs.github.io/openmrs-contrib-fhir2-ig",    
     "first": true,
     "status" : "release",

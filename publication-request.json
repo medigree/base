@@ -2,15 +2,14 @@
     "package-id" : "who.smart.base",
     "title" : "  Core", 
     "category" : "base",
-    "introduction" : "OpenMRS Core FHIR Implementation Guide publication: FHIR resources used in OpenMRS, and search parameters that can be used to qery information in OpenMRS",
+    "introduction" : "WHO SMART Guidelines Base specifications: Base profiles for the SMART Guidelines FHIR publication infrastructure.",
     "version" : "0.1.0",
     "desc" : "First stable release",
     "mode" : "milestone",    
     "path" : "http://smart.who.int/ig/base/0.1.0",
-    "ci-build": "https://openmrs.github.io/openmrs-contrib-fhir2-ig",    
+    "ci-build": "https://worldhealthorganization.github.io/smart-ig-starter-kit/smart-base",    
     "first": true,
     "status" : "release",
     "sequence" : "Releases"
   }
 
-  

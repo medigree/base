@@ -1,0 +1,9 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-who.fhir.smart-base.json	3376	-	0	1	0	0	0	0	2	82	0	0	1	0	0	0	0	1	0	0	68	56	0	0	0	1	0	2
+fsh-generated/resources/StructureDefinition-SGBusinessProcess.json	1268	37	0	0	0	0	0	437	0	309	0	0	0	0	0	0	0	2	0	0	536	3944	0	0	0	12	1	0
+fsh-generated/resources/StructureDefinition-SGPersona.json	1752	36	0	0	0	0	0	88	0	76	0	0	0	0	0	0	0	1	0	0	117	445	0	0	0	4	0	10
+fsh-generated/resources/StructureDefinition-SGMeasure.json	1660	35	0	0	0	0	0	354	0	227	0	0	0	0	0	0	0	1	0	0	389	899	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-SGCodeSystem.json	1116	33	0	0	0	0	0	201	0	153	0	0	0	0	0	0	0	1	0	0	263	586	0	0	0	7	0	0
+fsh-generated/resources/StructureDefinition-SGImplementationGuide.json	2195	36	0	0	0	0	0	386	0	288	0	0	0	0	0	0	0	1	0	0	431	1425	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-SGLogicalModel.json	7046	56	0	0	0	0	0	521	0	651	0	0	1	0	0	0	0	2	0	0	856	1676	0	0	0	22	0	1
+fsh-generated/resources/StructureDefinition-SGValueSet.json	1102	34	0	0	0	0	0	332	0	246	0	0	0	0	0	0	0	1	0	0	398	699	0	0	0	10	0	1

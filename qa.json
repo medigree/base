@@ -1,0 +1,13 @@
+{
+  "url" : "http://smart.who.int/ig/base/ImplementationGuide/who.smart.base",
+  "name" : "SMARTBase",
+  "package-id" : "who.smart.base",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 26 Sep, 2023 06:10:42 +0000",
+  "errs" : 1,
+  "warnings" : 19,
+  "hints" : 57,
+  "version" : "5.0.0",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2579002544
+}

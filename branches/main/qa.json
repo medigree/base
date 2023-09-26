@@ -1,0 +1,13 @@
+{
+  "url" : "http://worldhealthorganization.github.io/smart-base/ImplementationGuide/who.fhir.smart-base",
+  "name" : "SMARTBase",
+  "package-id" : "who.fhir.smart-base",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 26 Sep, 2023 06:09:33 +0000",
+  "errs" : 1,
+  "warnings" : 19,
+  "hints" : 57,
+  "version" : "5.0.0",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2028164120
+}
